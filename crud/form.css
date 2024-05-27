@@ -1,0 +1,68 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+section{
+    
+    display: flex;
+    background-color: rgb(209, 214, 219);
+    padding-top: 2rem;
+    /* text-align: center; */
+    
+}
+form{
+    width: 35%;
+    margin: auto;
+    display: flex;
+    border: 2px solid rgb(13, 14, 13);
+    border-radius: 5px;
+    /* justify-content: center; */
+    flex-direction: column;
+    padding: 2% 0%;
+    margin-bottom: 5%;
+    /* backdrop-filter: blur(10px); */
+    background-color: rgba(0, 0, 0, 0.2);
+}
+input,label{
+    width: 80%;
+    margin: auto;
+    
+}
+input{
+    padding: 1%;
+    margin-bottom: 2%;
+    outline: none;
+}
+input[type="button"]{
+width: 30%;
+}
+input[type="button"]{
+    background-color: blue;
+    color: white;
+}
+#Update{
+    display: none;
+}
+#user-detail{
+    height: 60vh;
+    overflow-y: scroll;
+    background-color: rgb(209, 214, 219);
+    text-align: center;
+    /* border: 2px solid rgb(0, 255, 85); */
+   
+}
+.email-password{
+    padding: 1%;
+    margin: 1%;
+    /* border: 2px solid red; */
+    margin: auto;
+    text-align: left;
+    width: 40%;
+}
+.dltbtn,.editbtn{
+    background-color: blue;
+    color: white;
+    margin-left: 3%;
+    padding: 1%;
+}
